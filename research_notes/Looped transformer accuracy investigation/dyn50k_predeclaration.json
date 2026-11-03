@@ -1,0 +1,41 @@
+{
+  "prefix": "dyn50k",
+  "snapshots": true,
+  "declared_utc": "2026-11-02T04:31:22.123204+00:00",
+  "runs": [
+    [
+      "original_baseline_preln",
+      42
+    ],
+    [
+      "original_baseline_warmup",
+      42
+    ],
+    [
+      "original_baseline_preln6",
+      42
+    ],
+    [
+      "tied6_full",
+      43
+    ],
+    [
+      "untied6_full",
+      43
+    ],
+    [
+      "original_looped",
+      43
+    ],
+    [
+      "original_baseline_preln",
+      43
+    ]
+  ],
+  "status": "EXPLORATORY: specified after full50k test outcomes were visible (untied6_full matched original_looped).",
+  "epochs": 30,
+  "warmup_steps": 2000,
+  "checkpoint_rule": "Fixed final epoch; no test-selected stopping.",
+  "shuffle_seed": "1000+architecture seed (1042 matches full50k)",
+  "script_sha256": "ddcdd468c86a439a31da4c2554a15474265e3fe91e445532c34ae345d6c89e5d"
+}

@@ -1,0 +1,28 @@
+{
+  "recorded_utc": "2026-11-02T02:43:21.709777+00:00",
+  "models": [
+    {
+      "variant": "original_baseline",
+      "epochs": 90,
+      "extra_checkpoint": 30
+    },
+    {
+      "variant": "original_looped",
+      "epochs": 30
+    },
+    {
+      "variant": "tied6_full",
+      "epochs": 30
+    },
+    {
+      "variant": "untied6_full",
+      "epochs": 30
+    }
+  ],
+  "seed": 42,
+  "train": 50000,
+  "val": 5000,
+  "test": 5000,
+  "source_sha256": "e670b6b617d8e87e5d1f1183fad59cbe87dbc9eb222fb1f904f51857ce201d60",
+  "status": "specified before own test observations; after some controlled pilotseed42 outcomes"
+}

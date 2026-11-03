@@ -1,0 +1,34 @@
+{
+  "mode": "train",
+  "variants": "postln4,preln4,preln6,tied6,tied6_anchor,tied6_full,untied6_full",
+  "seeds": "42,43,44",
+  "epochs": 30,
+  "train_size": 12000,
+  "val_size": 1000,
+  "test_size": 1000,
+  "rollout_n": 512,
+  "batch_size": 128,
+  "small": false,
+  "label": "controlled12k",
+  "threads": 4,
+  "variant": "tied6_full",
+  "seed": 43,
+  "optimizer": "AdamW",
+  "lr": 0.001,
+  "weight_decay": 0.0001,
+  "clip_grad_norm": 1.0,
+  "dtype": "float32",
+  "amp": false,
+  "dataset_sha256": {
+    "train": "cafaf4d7b50f9035a29353d688d96af8e9832a71530fc1a5a2d3ea4e542fa351",
+    "val": "c2702be904b522eb47ba02c999c0a725bcd5c8bd0c98c446d975817e0cbc8b7e",
+    "test": "499991fdc37950fe43504550576018fea7325b9573653b654000798c16e861e8"
+  },
+  "scope": "Reduced data/epoch pilot, not replication of original numerical results",
+  "architecture": {
+    "depth": 6,
+    "tied": true,
+    "injection": true,
+    "loop_encoding": true
+  }
+}

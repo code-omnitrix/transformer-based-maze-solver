@@ -1,0 +1,14 @@
+{
+  "collected_utc": "2026-11-02T02:47:36.827273+00:00",
+  "scope": "Fresh llmdyn interpreter defaults; frozen training source does not modify these settings. Not an introspection of the already-running process.",
+  "deterministic_algorithms_enabled": false,
+  "deterministic_warn_only": false,
+  "cudnn_deterministic": false,
+  "cudnn_benchmark": false,
+  "cuda_matmul_allow_tf32": false,
+  "cudnn_allow_tf32": true,
+  "float32_matmul_precision": "highest",
+  "CUBLAS_WORKSPACE_CONFIG": null,
+  "PYTHONHASHSEED": null,
+  "torch_version": "2.11.0+cu128"
+}

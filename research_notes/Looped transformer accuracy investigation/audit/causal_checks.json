@@ -1,0 +1,10 @@
+{
+  "baseline": {
+    "future_prefix_max_abs_difference": 0.0,
+    "finite": true
+  },
+  "looped": {
+    "future_prefix_max_abs_difference": 0.0,
+    "finite": true
+  }
+}

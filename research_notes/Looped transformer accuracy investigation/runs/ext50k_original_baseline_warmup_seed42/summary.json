@@ -1,0 +1,31 @@
+{
+  "run_id": "ext50k_original_baseline_warmup_seed42",
+  "parameters": 1338119,
+  "teacher_test": {
+    "tokens": 42352,
+    "correct": 41914,
+    "examples": 5000,
+    "exact": 4677,
+    "nll": 1299.1048781871796,
+    "actions": 37352,
+    "actions_correct": 36932,
+    "eos": 5000,
+    "eos_correct": 4982,
+    "token_accuracy": 0.9896581035134114,
+    "action_accuracy": 0.9887556221889056,
+    "exact_accuracy": 0.9354,
+    "mean_nll": 0.030673991268114365
+  },
+  "rollout_test": {
+    "rollout_exact": 0.929,
+    "valid_path": 0.968,
+    "terminated": 0.968,
+    "goal_reached": 0.96,
+    "solved": 0.96,
+    "optimal_solved": 0.938
+  },
+  "rollout_n": 1000,
+  "train_seconds": 285.6132838000776,
+  "val_seconds": 8.465126600000076,
+  "total_seconds": 294.32010130002163
+}

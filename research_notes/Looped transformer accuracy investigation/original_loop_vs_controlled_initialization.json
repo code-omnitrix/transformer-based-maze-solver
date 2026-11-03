@@ -1,0 +1,694 @@
+{
+  "scope": "Fresh per-modelseed42 original_looped vs controlledtied6_full; same shapes/forward graph under mapped weights",
+  "trainable_parameter_count_original": 352521,
+  "trainable_parameter_count_controlled": 352521,
+  "mapped_trainable_tensors": 43,
+  "missing_trainable_keys": [],
+  "different_trainable_tensors": [
+    {
+      "original_key": "transformer.encoder.shared_block.self_attn.in_proj_weight",
+      "controlled_key": "encoder.0.self_attn.in_proj_weight",
+      "shape": [
+        384,
+        128
+      ],
+      "identical": false,
+      "max_abs_difference": 0.21612313389778137,
+      "original_std": 0.06254113465547562,
+      "controlled_std": 0.06250035017728806
+    },
+    {
+      "original_key": "transformer.encoder.shared_block.self_attn.out_proj.weight",
+      "controlled_key": "encoder.0.self_attn.out_proj.weight",
+      "shape": [
+        128,
+        128
+      ],
+      "identical": false,
+      "max_abs_difference": 0.23803606629371643,
+      "original_std": 0.05088320001959801,
+      "controlled_std": 0.08854087442159653
+    },
+    {
+      "original_key": "transformer.encoder.shared_block.linear1.weight",
+      "controlled_key": "encoder.0.linear1.weight",
+      "shape": [
+        256,
+        128
+      ],
+      "identical": false,
+      "max_abs_difference": 0.21266606450080872,
+      "original_std": 0.05101630091667175,
+      "controlled_std": 0.07227028161287308
+    },
+    {
+      "original_key": "transformer.encoder.shared_block.linear2.weight",
+      "controlled_key": "encoder.0.linear2.weight",
+      "shape": [
+        128,
+        256
+      ],
+      "identical": false,
+      "max_abs_difference": 0.18656690418720245,
+      "original_std": 0.03623032569885254,
+      "controlled_std": 0.07199490815401077
+    },
+    {
+      "original_key": "transformer.decoder.shared_block.self_attn.in_proj_weight",
+      "controlled_key": "decoder.0.self_attn.in_proj_weight",
+      "shape": [
+        384,
+        128
+      ],
+      "identical": false,
+      "max_abs_difference": 0.21532756090164185,
+      "original_std": 0.06241137161850929,
+      "controlled_std": 0.06233227625489235
+    },
+    {
+      "original_key": "transformer.decoder.shared_block.self_attn.out_proj.weight",
+      "controlled_key": "decoder.0.self_attn.out_proj.weight",
+      "shape": [
+        128,
+        128
+      ],
+      "identical": false,
+      "max_abs_difference": 0.24038061499595642,
+      "original_std": 0.051123470067977905,
+      "controlled_std": 0.08849889785051346
+    },
+    {
+      "original_key": "transformer.decoder.shared_block.multihead_attn.in_proj_weight",
+      "controlled_key": "decoder.0.multihead_attn.in_proj_weight",
+      "shape": [
+        384,
+        128
+      ],
+      "identical": false,
+      "max_abs_difference": 0.21531328558921814,
+      "original_std": 0.062475141137838364,
+      "controlled_std": 0.06233857199549675
+    },
+    {
+      "original_key": "transformer.decoder.shared_block.multihead_attn.out_proj.weight",
+      "controlled_key": "decoder.0.multihead_attn.out_proj.weight",
+      "shape": [
+        128,
+        128
+      ],
+      "identical": false,
+      "max_abs_difference": 0.240115225315094,
+      "original_std": 0.05113890394568443,
+      "controlled_std": 0.08836129307746887
+    },
+    {
+      "original_key": "transformer.decoder.shared_block.linear1.weight",
+      "controlled_key": "decoder.0.linear1.weight",
+      "shape": [
+        256,
+        128
+      ],
+      "identical": false,
+      "max_abs_difference": 0.21253526210784912,
+      "original_std": 0.05098425969481468,
+      "controlled_std": 0.07220789790153503
+    },
+    {
+      "original_key": "transformer.decoder.shared_block.linear2.weight",
+      "controlled_key": "decoder.0.linear2.weight",
+      "shape": [
+        128,
+        256
+      ],
+      "identical": false,
+      "max_abs_difference": 0.18642517924308777,
+      "original_std": 0.03611130639910698,
+      "controlled_std": 0.07255113869905472
+    }
+  ],
+  "identical_noncore_tensors": [
+    "maze_token_emb.weight",
+    "row_emb.weight",
+    "col_emb.weight",
+    "action_token_emb.weight",
+    "pos_emb.weight",
+    "fc_out.weight",
+    "fc_out.bias",
+    "transformer.encoder.final_norm.weight",
+    "transformer.encoder.final_norm.bias",
+    "transformer.decoder.final_norm.weight",
+    "transformer.decoder.final_norm.bias",
+    "transformer.encoder.input_gate",
+    "transformer.decoder.input_gate"
+  ],
+  "cpu_rng_after_model_creation_equal": false,
+  "cuda_rng_after_model_creation_equal": true,
+  "cpu_rng_hashes": [
+    "e649933ae62c0f57ddf32029d0c5c32bfb2285c54c3287a4684928b5711b89b4",
+    "7aeb28c971b554248464b12c56ba69540468ca976a4015d03da77838960dcd7e"
+  ],
+  "cuda_rng_hashes": [
+    [
+      "aefdce03def94ffed42159e55677ec20e91200e1981f25b1f271b6fd99c3c263"
+    ],
+    [
+      "aefdce03def94ffed42159e55677ec20e91200e1981f25b1f271b6fd99c3c263"
+    ]
+  ],
+  "interpretation": "Core matrix initialization policy/draws differ; embeddings/output/all1Dparameters match atseed42. CPU RNG advances differently; shared dedicatedshuffle seed1042 and sameinitial CUDA RNG documented. Per-step CUDA dropout mask identity not independently traced; singlemodelseed does not isolate which initialization component matters.",
+  "all_mapped_tensors": [
+    {
+      "original_key": "maze_token_emb.weight",
+      "controlled_key": "maze_token_emb.weight",
+      "shape": [
+        4,
+        128
+      ],
+      "identical": true,
+      "max_abs_difference": 0.0,
+      "original_std": 0.9715733528137207,
+      "controlled_std": 0.9715733528137207
+    },
+    {
+      "original_key": "row_emb.weight",
+      "controlled_key": "row_emb.weight",
+      "shape": [
+        8,
+        128
+      ],
+      "identical": true,
+      "max_abs_difference": 0.0,
+      "original_std": 1.006506085395813,
+      "controlled_std": 1.006506085395813
+    },
+    {
+      "original_key": "col_emb.weight",
+      "controlled_key": "col_emb.weight",
+      "shape": [
+        8,
+        128
+      ],
+      "identical": true,
+      "max_abs_difference": 0.0,
+      "original_std": 0.9799768328666687,
+      "controlled_std": 0.9799768328666687
+    },
+    {
+      "original_key": "action_token_emb.weight",
+      "controlled_key": "action_token_emb.weight",
+      "shape": [
+        7,
+        128
+      ],
+      "identical": true,
+      "max_abs_difference": 0.0,
+      "original_std": 1.0125937461853027,
+      "controlled_std": 1.0125937461853027
+    },
+    {
+      "original_key": "pos_emb.weight",
+      "controlled_key": "pos_emb.weight",
+      "shape": [
+        128,
+        128
+      ],
+      "identical": true,
+      "max_abs_difference": 0.0,
+      "original_std": 1.0035638809204102,
+      "controlled_std": 1.0035638809204102
+    },
+    {
+      "original_key": "fc_out.weight",
+      "controlled_key": "fc_out.weight",
+      "shape": [
+        7,
+        128
+      ],
+      "identical": true,
+      "max_abs_difference": 0.0,
+      "original_std": 0.05025952309370041,
+      "controlled_std": 0.05025952309370041
+    },
+    {
+      "original_key": "fc_out.bias",
+      "controlled_key": "fc_out.bias",
+      "shape": [
+        7
+      ],
+      "identical": true,
+      "max_abs_difference": 0.0,
+      "original_std": 0.042382847517728806,
+      "controlled_std": 0.042382847517728806
+    },
+    {
+      "original_key": "transformer.encoder.shared_block.self_attn.in_proj_weight",
+      "controlled_key": "encoder.0.self_attn.in_proj_weight",
+      "shape": [
+        384,
+        128
+      ],
+      "identical": false,
+      "max_abs_difference": 0.21612313389778137,
+      "original_std": 0.06254113465547562,
+      "controlled_std": 0.06250035017728806
+    },
+    {
+      "original_key": "transformer.encoder.shared_block.self_attn.in_proj_bias",
+      "controlled_key": "encoder.0.self_attn.in_proj_bias",
+      "shape": [
+        384
+      ],
+      "identical": true,
+      "max_abs_difference": 0.0,
+      "original_std": 0.0,
+      "controlled_std": 0.0
+    },
+    {
+      "original_key": "transformer.encoder.shared_block.self_attn.out_proj.weight",
+      "controlled_key": "encoder.0.self_attn.out_proj.weight",
+      "shape": [
+        128,
+        128
+      ],
+      "identical": false,
+      "max_abs_difference": 0.23803606629371643,
+      "original_std": 0.05088320001959801,
+      "controlled_std": 0.08854087442159653
+    },
+    {
+      "original_key": "transformer.encoder.shared_block.self_attn.out_proj.bias",
+      "controlled_key": "encoder.0.self_attn.out_proj.bias",
+      "shape": [
+        128
+      ],
+      "identical": true,
+      "max_abs_difference": 0.0,
+      "original_std": 0.0,
+      "controlled_std": 0.0
+    },
+    {
+      "original_key": "transformer.encoder.shared_block.linear1.weight",
+      "controlled_key": "encoder.0.linear1.weight",
+      "shape": [
+        256,
+        128
+      ],
+      "identical": false,
+      "max_abs_difference": 0.21266606450080872,
+      "original_std": 0.05101630091667175,
+      "controlled_std": 0.07227028161287308
+    },
+    {
+      "original_key": "transformer.encoder.shared_block.linear1.bias",
+      "controlled_key": "encoder.0.linear1.bias",
+      "shape": [
+        256
+      ],
+      "identical": true,
+      "max_abs_difference": 0.0,
+      "original_std": 0.051620300859212875,
+      "controlled_std": 0.051620300859212875
+    },
+    {
+      "original_key": "transformer.encoder.shared_block.linear2.weight",
+      "controlled_key": "encoder.0.linear2.weight",
+      "shape": [
+        128,
+        256
+      ],
+      "identical": false,
+      "max_abs_difference": 0.18656690418720245,
+      "original_std": 0.03623032569885254,
+      "controlled_std": 0.07199490815401077
+    },
+    {
+      "original_key": "transformer.encoder.shared_block.linear2.bias",
+      "controlled_key": "encoder.0.linear2.bias",
+      "shape": [
+        128
+      ],
+      "identical": true,
+      "max_abs_difference": 0.0,
+      "original_std": 0.03469739854335785,
+      "controlled_std": 0.03469739854335785
+    },
+    {
+      "original_key": "transformer.encoder.shared_block.norm1.weight",
+      "controlled_key": "encoder.0.norm1.weight",
+      "shape": [
+        128
+      ],
+      "identical": true,
+      "max_abs_difference": 0.0,
+      "original_std": 0.0,
+      "controlled_std": 0.0
+    },
+    {
+      "original_key": "transformer.encoder.shared_block.norm1.bias",
+      "controlled_key": "encoder.0.norm1.bias",
+      "shape": [
+        128
+      ],
+      "identical": true,
+      "max_abs_difference": 0.0,
+      "original_std": 0.0,
+      "controlled_std": 0.0
+    },
+    {
+      "original_key": "transformer.encoder.shared_block.norm2.weight",
+      "controlled_key": "encoder.0.norm2.weight",
+      "shape": [
+        128
+      ],
+      "identical": true,
+      "max_abs_difference": 0.0,
+      "original_std": 0.0,
+      "controlled_std": 0.0
+    },
+    {
+      "original_key": "transformer.encoder.shared_block.norm2.bias",
+      "controlled_key": "encoder.0.norm2.bias",
+      "shape": [
+        128
+      ],
+      "identical": true,
+      "max_abs_difference": 0.0,
+      "original_std": 0.0,
+      "controlled_std": 0.0
+    },
+    {
+      "original_key": "transformer.decoder.shared_block.self_attn.in_proj_weight",
+      "controlled_key": "decoder.0.self_attn.in_proj_weight",
+      "shape": [
+        384,
+        128
+      ],
+      "identical": false,
+      "max_abs_difference": 0.21532756090164185,
+      "original_std": 0.06241137161850929,
+      "controlled_std": 0.06233227625489235
+    },
+    {
+      "original_key": "transformer.decoder.shared_block.self_attn.in_proj_bias",
+      "controlled_key": "decoder.0.self_attn.in_proj_bias",
+      "shape": [
+        384
+      ],
+      "identical": true,
+      "max_abs_difference": 0.0,
+      "original_std": 0.0,
+      "controlled_std": 0.0
+    },
+    {
+      "original_key": "transformer.decoder.shared_block.self_attn.out_proj.weight",
+      "controlled_key": "decoder.0.self_attn.out_proj.weight",
+      "shape": [
+        128,
+        128
+      ],
+      "identical": false,
+      "max_abs_difference": 0.24038061499595642,
+      "original_std": 0.051123470067977905,
+      "controlled_std": 0.08849889785051346
+    },
+    {
+      "original_key": "transformer.decoder.shared_block.self_attn.out_proj.bias",
+      "controlled_key": "decoder.0.self_attn.out_proj.bias",
+      "shape": [
+        128
+      ],
+      "identical": true,
+      "max_abs_difference": 0.0,
+      "original_std": 0.0,
+      "controlled_std": 0.0
+    },
+    {
+      "original_key": "transformer.decoder.shared_block.multihead_attn.in_proj_weight",
+      "controlled_key": "decoder.0.multihead_attn.in_proj_weight",
+      "shape": [
+        384,
+        128
+      ],
+      "identical": false,
+      "max_abs_difference": 0.21531328558921814,
+      "original_std": 0.062475141137838364,
+      "controlled_std": 0.06233857199549675
+    },
+    {
+      "original_key": "transformer.decoder.shared_block.multihead_attn.in_proj_bias",
+      "controlled_key": "decoder.0.multihead_attn.in_proj_bias",
+      "shape": [
+        384
+      ],
+      "identical": true,
+      "max_abs_difference": 0.0,
+      "original_std": 0.0,
+      "controlled_std": 0.0
+    },
+    {
+      "original_key": "transformer.decoder.shared_block.multihead_attn.out_proj.weight",
+      "controlled_key": "decoder.0.multihead_attn.out_proj.weight",
+      "shape": [
+        128,
+        128
+      ],
+      "identical": false,
+      "max_abs_difference": 0.240115225315094,
+      "original_std": 0.05113890394568443,
+      "controlled_std": 0.08836129307746887
+    },
+    {
+      "original_key": "transformer.decoder.shared_block.multihead_attn.out_proj.bias",
+      "controlled_key": "decoder.0.multihead_attn.out_proj.bias",
+      "shape": [
+        128
+      ],
+      "identical": true,
+      "max_abs_difference": 0.0,
+      "original_std": 0.0,
+      "controlled_std": 0.0
+    },
+    {
+      "original_key": "transformer.decoder.shared_block.linear1.weight",
+      "controlled_key": "decoder.0.linear1.weight",
+      "shape": [
+        256,
+        128
+      ],
+      "identical": false,
+      "max_abs_difference": 0.21253526210784912,
+      "original_std": 0.05098425969481468,
+      "controlled_std": 0.07220789790153503
+    },
+    {
+      "original_key": "transformer.decoder.shared_block.linear1.bias",
+      "controlled_key": "decoder.0.linear1.bias",
+      "shape": [
+        256
+      ],
+      "identical": true,
+      "max_abs_difference": 0.0,
+      "original_std": 0.050906144082546234,
+      "controlled_std": 0.050906144082546234
+    },
+    {
+      "original_key": "transformer.decoder.shared_block.linear2.weight",
+      "controlled_key": "decoder.0.linear2.weight",
+      "shape": [
+        128,
+        256
+      ],
+      "identical": false,
+      "max_abs_difference": 0.18642517924308777,
+      "original_std": 0.03611130639910698,
+      "controlled_std": 0.07255113869905472
+    },
+    {
+      "original_key": "transformer.decoder.shared_block.linear2.bias",
+      "controlled_key": "decoder.0.linear2.bias",
+      "shape": [
+        128
+      ],
+      "identical": true,
+      "max_abs_difference": 0.0,
+      "original_std": 0.036165643483400345,
+      "controlled_std": 0.036165643483400345
+    },
+    {
+      "original_key": "transformer.decoder.shared_block.norm1.weight",
+      "controlled_key": "decoder.0.norm1.weight",
+      "shape": [
+        128
+      ],
+      "identical": true,
+      "max_abs_difference": 0.0,
+      "original_std": 0.0,
+      "controlled_std": 0.0
+    },
+    {
+      "original_key": "transformer.decoder.shared_block.norm1.bias",
+      "controlled_key": "decoder.0.norm1.bias",
+      "shape": [
+        128
+      ],
+      "identical": true,
+      "max_abs_difference": 0.0,
+      "original_std": 0.0,
+      "controlled_std": 0.0
+    },
+    {
+      "original_key": "transformer.decoder.shared_block.norm2.weight",
+      "controlled_key": "decoder.0.norm2.weight",
+      "shape": [
+        128
+      ],
+      "identical": true,
+      "max_abs_difference": 0.0,
+      "original_std": 0.0,
+      "controlled_std": 0.0
+    },
+    {
+      "original_key": "transformer.decoder.shared_block.norm2.bias",
+      "controlled_key": "decoder.0.norm2.bias",
+      "shape": [
+        128
+      ],
+      "identical": true,
+      "max_abs_difference": 0.0,
+      "original_std": 0.0,
+      "controlled_std": 0.0
+    },
+    {
+      "original_key": "transformer.decoder.shared_block.norm3.weight",
+      "controlled_key": "decoder.0.norm3.weight",
+      "shape": [
+        128
+      ],
+      "identical": true,
+      "max_abs_difference": 0.0,
+      "original_std": 0.0,
+      "controlled_std": 0.0
+    },
+    {
+      "original_key": "transformer.decoder.shared_block.norm3.bias",
+      "controlled_key": "decoder.0.norm3.bias",
+      "shape": [
+        128
+      ],
+      "identical": true,
+      "max_abs_difference": 0.0,
+      "original_std": 0.0,
+      "controlled_std": 0.0
+    },
+    {
+      "original_key": "transformer.encoder.final_norm.weight",
+      "controlled_key": "encoder_norm.weight",
+      "shape": [
+        128
+      ],
+      "identical": true,
+      "max_abs_difference": 0.0,
+      "original_std": 0.0,
+      "controlled_std": 0.0
+    },
+    {
+      "original_key": "transformer.encoder.final_norm.bias",
+      "controlled_key": "encoder_norm.bias",
+      "shape": [
+        128
+      ],
+      "identical": true,
+      "max_abs_difference": 0.0,
+      "original_std": 0.0,
+      "controlled_std": 0.0
+    },
+    {
+      "original_key": "transformer.decoder.final_norm.weight",
+      "controlled_key": "decoder_norm.weight",
+      "shape": [
+        128
+      ],
+      "identical": true,
+      "max_abs_difference": 0.0,
+      "original_std": 0.0,
+      "controlled_std": 0.0
+    },
+    {
+      "original_key": "transformer.decoder.final_norm.bias",
+      "controlled_key": "decoder_norm.bias",
+      "shape": [
+        128
+      ],
+      "identical": true,
+      "max_abs_difference": 0.0,
+      "original_std": 0.0,
+      "controlled_std": 0.0
+    },
+    {
+      "original_key": "transformer.encoder.input_gate",
+      "controlled_key": "encoder_gate",
+      "shape": [
+        1
+      ],
+      "identical": true,
+      "max_abs_difference": 0.0,
+      "original_std": null,
+      "controlled_std": null
+    },
+    {
+      "original_key": "transformer.decoder.input_gate",
+      "controlled_key": "decoder_gate",
+      "shape": [
+        1
+      ],
+      "identical": true,
+      "max_abs_difference": 0.0,
+      "original_std": null,
+      "controlled_std": null
+    },
+    {
+      "original_key": "grid_rows",
+      "controlled_key": "rows",
+      "shape": [
+        64
+      ],
+      "identical": true,
+      "max_abs_difference": 0.0,
+      "original_std": 2.309401035308838,
+      "controlled_std": 2.309401035308838
+    },
+    {
+      "original_key": "grid_cols",
+      "controlled_key": "cols",
+      "shape": [
+        64
+      ],
+      "identical": true,
+      "max_abs_difference": 0.0,
+      "original_std": 2.309401035308838,
+      "controlled_std": 2.309401035308838
+    },
+    {
+      "original_key": "transformer.encoder.loop_emb.div_term",
+      "controlled_key": "div",
+      "shape": [
+        64
+      ],
+      "identical": true,
+      "max_abs_difference": 0.0,
+      "original_std": 0.2228517383337021,
+      "controlled_std": 0.2228517383337021
+    },
+    {
+      "original_key": "transformer.decoder.loop_emb.div_term",
+      "controlled_key": "div",
+      "shape": [
+        64
+      ],
+      "identical": true,
+      "max_abs_difference": 0.0,
+      "original_std": 0.2228517383337021,
+      "controlled_std": 0.2228517383337021
+    }
+  ]
+}

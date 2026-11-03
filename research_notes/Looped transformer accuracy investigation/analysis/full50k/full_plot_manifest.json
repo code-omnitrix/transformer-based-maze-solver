@@ -1,0 +1,16 @@
+{
+  "generated_utc": "2026-11-02T03:47:25.002328+00:00",
+  "script_sha256": "4b328675f6fc8030adb5c7f82bb8e8d094b7a7e0382f8ecca89ec072368fdbff",
+  "source_runs": [
+    "D:\\Projects\\Loopedtrans\\research_notes\\Looped transformer accuracy investigation\\runs\\full50k_original_baseline_seed42",
+    "D:\\Projects\\Loopedtrans\\research_notes\\Looped transformer accuracy investigation\\runs\\full50k_original_looped_seed42",
+    "D:\\Projects\\Loopedtrans\\research_notes\\Looped transformer accuracy investigation\\runs\\full50k_tied6_full_seed42",
+    "D:\\Projects\\Loopedtrans\\research_notes\\Looped transformer accuracy investigation\\runs\\full50k_untied6_full_seed42"
+  ],
+  "scope": "Explicit n=1 full-data figures; no seed SD; originalbaseline30 separately included",
+  "replaced_generic_figures": [
+    "controlled_learning_curves.png",
+    "test_token_vs_rollout.png"
+  ],
+  "no_numeric_source_changes": true
+}

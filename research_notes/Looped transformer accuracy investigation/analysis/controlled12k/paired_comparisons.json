@@ -1,0 +1,224 @@
+[
+  {
+    "before": "untied6_full",
+    "after": "tied6_full",
+    "primary_contrast": true,
+    "paired_seeds": [
+      42,
+      43,
+      44
+    ],
+    "seed_token_effects": [
+      -0.07901234567901234,
+      0.00047031158142269255,
+      -0.0030570252792475015
+    ],
+    "paired_seed_difference_mean": -0.02719968645894572,
+    "paired_seed_difference_sd": 0.04490572644912035,
+    "teacher_token": {
+      "difference": -0.027199686458945715,
+      "conditional_maze_bootstrap_95pct": [
+        -0.03135526265440795,
+        -0.023069099108077133
+      ],
+      "replicates": 5000,
+      "seed": 20261105,
+      "unit": "paired maze, mean of fixed fitted model metrics; no voting/logit ensemble, no train-dataset or retraining uncertainty"
+    },
+    "rollout_optimal": {
+      "difference": -0.09179687499999999,
+      "conditional_maze_bootstrap_95pct": [
+        -0.115234375,
+        -0.06901041666666666
+      ],
+      "replicates": 5000,
+      "seed": 20261105,
+      "unit": "paired maze, mean of fixed fitted model metrics; no voting/logit ensemble, no train-dataset or retraining uncertainty"
+    }
+  },
+  {
+    "before": "postln4",
+    "after": "preln4",
+    "primary_contrast": false,
+    "paired_seeds": [
+      42,
+      43,
+      44
+    ],
+    "seed_token_effects": [
+      0.15837742504409172,
+      0.13838918283362728,
+      0.16660787771898883
+    ],
+    "paired_seed_difference_mean": 0.1544581618655693,
+    "paired_seed_difference_sd": 0.01451186249780413,
+    "teacher_token": {
+      "difference": 0.1544581618655693,
+      "conditional_maze_bootstrap_95pct": [
+        0.14765070170762337,
+        0.16135064163377086
+      ],
+      "replicates": 5000,
+      "seed": 20261105,
+      "unit": "paired maze, mean of fixed fitted model metrics; no voting/logit ensemble, no train-dataset or retraining uncertainty"
+    },
+    "rollout_optimal": {
+      "difference": 0.47135416666666663,
+      "conditional_maze_bootstrap_95pct": [
+        0.43424479166666663,
+        0.5084635416666666
+      ],
+      "replicates": 5000,
+      "seed": 20261105,
+      "unit": "paired maze, mean of fixed fitted model metrics; no voting/logit ensemble, no train-dataset or retraining uncertainty"
+    }
+  },
+  {
+    "before": "preln4",
+    "after": "preln6",
+    "primary_contrast": false,
+    "paired_seeds": [
+      42,
+      43,
+      44
+    ],
+    "seed_token_effects": [
+      0.0032921810699588477,
+      -0.005761316872427984,
+      -0.10229276895943562
+    ],
+    "paired_seed_difference_mean": -0.034920634920634915,
+    "paired_seed_difference_sd": 0.05852131910641452,
+    "teacher_token": {
+      "difference": -0.03492063492063492,
+      "conditional_maze_bootstrap_95pct": [
+        -0.038485569722036816,
+        -0.03138299830134714
+      ],
+      "replicates": 5000,
+      "seed": 20261105,
+      "unit": "paired maze, mean of fixed fitted model metrics; no voting/logit ensemble, no train-dataset or retraining uncertainty"
+    },
+    "rollout_optimal": {
+      "difference": -0.12044270833333333,
+      "conditional_maze_bootstrap_95pct": [
+        -0.14583333333333331,
+        -0.095703125
+      ],
+      "replicates": 5000,
+      "seed": 20261105,
+      "unit": "paired maze, mean of fixed fitted model metrics; no voting/logit ensemble, no train-dataset or retraining uncertainty"
+    }
+  },
+  {
+    "before": "preln6",
+    "after": "tied6",
+    "primary_contrast": false,
+    "paired_seeds": [
+      42,
+      43,
+      44
+    ],
+    "seed_token_effects": [
+      -0.14168136390358613,
+      -0.04091710758377425,
+      0.028101116990005878
+    ],
+    "paired_seed_difference_mean": -0.05149911816578484,
+    "paired_seed_difference_sd": 0.08538446530583928,
+    "teacher_token": {
+      "difference": -0.051499118165784834,
+      "conditional_maze_bootstrap_95pct": [
+        -0.05620815479473396,
+        -0.04703496966555695
+      ],
+      "replicates": 5000,
+      "seed": 20261105,
+      "unit": "paired maze, mean of fixed fitted model metrics; no voting/logit ensemble, no train-dataset or retraining uncertainty"
+    },
+    "rollout_optimal": {
+      "difference": -0.15950520833333331,
+      "conditional_maze_bootstrap_95pct": [
+        -0.18361002604166665,
+        -0.134765625
+      ],
+      "replicates": 5000,
+      "seed": 20261105,
+      "unit": "paired maze, mean of fixed fitted model metrics; no voting/logit ensemble, no train-dataset or retraining uncertainty"
+    }
+  },
+  {
+    "before": "tied6",
+    "after": "tied6_anchor",
+    "primary_contrast": false,
+    "paired_seeds": [
+      42,
+      43,
+      44
+    ],
+    "seed_token_effects": [
+      0.044444444444444446,
+      0.016343327454438564,
+      -0.021869488536155203
+    ],
+    "paired_seed_difference_mean": 0.01297276112090927,
+    "paired_seed_difference_sd": 0.03328520639706785,
+    "teacher_token": {
+      "difference": 0.012972761120909268,
+      "conditional_maze_bootstrap_95pct": [
+        0.008852992829412978,
+        0.017121864876266584
+      ],
+      "replicates": 5000,
+      "seed": 20261105,
+      "unit": "paired maze, mean of fixed fitted model metrics; no voting/logit ensemble, no train-dataset or retraining uncertainty"
+    },
+    "rollout_optimal": {
+      "difference": 0.014973958333333332,
+      "conditional_maze_bootstrap_95pct": [
+        -0.007161458333333335,
+        0.037760416666666664
+      ],
+      "replicates": 5000,
+      "seed": 20261105,
+      "unit": "paired maze, mean of fixed fitted model metrics; no voting/logit ensemble, no train-dataset or retraining uncertainty"
+    }
+  },
+  {
+    "before": "tied6_anchor",
+    "after": "tied6_full",
+    "primary_contrast": false,
+    "paired_seeds": [
+      42,
+      43,
+      44
+    ],
+    "seed_token_effects": [
+      -0.007995296884185774,
+      -0.043033509700176366,
+      0.006701940035273368
+    ],
+    "paired_seed_difference_mean": -0.014775622183029588,
+    "paired_seed_difference_sd": 0.025551582112766872,
+    "teacher_token": {
+      "difference": -0.01477562218302959,
+      "conditional_maze_bootstrap_95pct": [
+        -0.01855536685389871,
+        -0.011044308668907585
+      ],
+      "replicates": 5000,
+      "seed": 20261105,
+      "unit": "paired maze, mean of fixed fitted model metrics; no voting/logit ensemble, no train-dataset or retraining uncertainty"
+    },
+    "rollout_optimal": {
+      "difference": -0.05729166666666666,
+      "conditional_maze_bootstrap_95pct": [
+        -0.078125,
+        -0.03645833333333333
+      ],
+      "replicates": 5000,
+      "seed": 20261105,
+      "unit": "paired maze, mean of fixed fitted model metrics; no voting/logit ensemble, no train-dataset or retraining uncertainty"
+    }
+  }
+]

@@ -1,0 +1,78 @@
+{
+  "sha256": "fd187163c7ea47f268a1734f1e6ab3c6dc306906950bed1f0793b030743e4701",
+  "metadata": {
+    "kernelspec": {
+      "display_name": "llmdyn",
+      "language": "python",
+      "name": "python3"
+    },
+    "language_info": {
+      "codemirror_mode": {
+        "name": "ipython",
+        "version": 3
+      },
+      "file_extension": ".py",
+      "mimetype": "text/x-python",
+      "name": "python",
+      "nbconvert_exporter": "python",
+      "pygments_lexer": "ipython3",
+      "version": "3.12.13"
+    }
+  },
+  "cells": [
+    {
+      "index": 0,
+      "execution_count": 21,
+      "source_sha256": "f0e4fe46618a3edcf66d9809b865af8d91dc08a5a29224ce9965bdc47fb1cf37",
+      "outputs": 1
+    },
+    {
+      "index": 1,
+      "execution_count": 22,
+      "source_sha256": "7b58da0732700746a6091893837fedf6821f8bd470b49cab2df87e4eaaa82267",
+      "outputs": 1
+    },
+    {
+      "index": 2,
+      "execution_count": 23,
+      "source_sha256": "410d21f1e65ff09c7d5a2e2b30cbca81e92079000e92bb70e9b9dd91400ab1de",
+      "outputs": 0
+    },
+    {
+      "index": 3,
+      "execution_count": 25,
+      "source_sha256": "62092b5f0042c99fbcdda303b51d35e6b557b8e31495418cfa8178e063852381",
+      "outputs": 1
+    },
+    {
+      "index": 4,
+      "execution_count": 13,
+      "source_sha256": "405556e7405a58bf8efac6e54b8da5bade89b494cecb9e3d8fa5937f4b1cf60f",
+      "outputs": 1
+    },
+    {
+      "index": 5,
+      "execution_count": null,
+      "source_sha256": "b4f27f07e42ebe3c294109656a014d02f38697e0dd466cf313cf5a23eaf9cad8",
+      "outputs": 0
+    },
+    {
+      "index": 6,
+      "execution_count": 18,
+      "source_sha256": "fe3de5f5ea8ab7a05face38062a0d974703260469b0467a8f3f2d419bf0a6264",
+      "outputs": 1
+    },
+    {
+      "index": 7,
+      "execution_count": 20,
+      "source_sha256": "24d0b3d73796a73c827d28cda4c4128673150ae4beb02c04d5b995a43a86461f",
+      "outputs": 1
+    },
+    {
+      "index": 8,
+      "execution_count": null,
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "outputs": 0
+    }
+  ]
+}

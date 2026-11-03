@@ -1,0 +1,33 @@
+[
+  {
+    "id": "finzi2026epiplexity_v2",
+    "title": "From Entropy to Epiplexity: Rethinking Information for Computationally Bounded Intelligence",
+    "authors": ["Marc Finzi", "Shikai Qiu", "Yiding Jiang", "Pavel Izmailov", "J. Zico Kolter", "Andrew Gordon Wilson"],
+    "version": "arXiv:2601.03220v2",
+    "published": "2026-01-06",
+    "revised": "2026-03-16",
+    "accessed_utc": "2026-11-02T02:29:21Z",
+    "url": "https://arxiv.org/html/2601.03220v2",
+    "metadata_url": "https://arxiv.org/abs/2601.03220",
+    "sections_read": ["3", "4.1", "4.2", "4.3", "4.4", "5.3.1", "5.3.2", "6.1", "6.2", "8", "B.1", "C.8"],
+    "source_type": "primary research preprint",
+    "confidence": "high for contents; no independent reproduction of paper's experiments",
+    "key_limit": "Paper's looped model generates intermediate ECA states; notebook loops hidden states. Accuracy is not epiplexity."
+  },
+  {
+    "id": "finzi2026epiplexity_code",
+    "title": "Authors' epiplexity reproduction repository",
+    "url": "https://github.com/shikaiqiu/epiplexity",
+    "accessed_utc": "2026-11-02T02:29:21Z",
+    "sections_read": ["README repository structure", "Key logged quantities", "Estimating epiplexity"],
+    "source_type": "primary author code documentation",
+    "confidence": "high for README contents; scripts not executed"
+  },
+  {
+    "id": "local_notebook",
+    "url": "../../aiml.ipynb",
+    "sha256": "fd187163c7ea47f268a1734f1e6ab3c6dc306906950bed1f0793b030743e4701",
+    "source_type": "local saved notebook, not historical run state",
+    "cells_read": [0,1,2,3,4,5,6,7,8]
+  }
+]

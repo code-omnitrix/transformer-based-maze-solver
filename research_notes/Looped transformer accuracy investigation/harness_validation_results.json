@@ -1,0 +1,173 @@
+{
+  "scope": "CPU read-only validation of running harness; no training or existing-file changes",
+  "mapped_original_forward_max_abs_difference": {
+    "postln4": 0.0,
+    "tied6_full": 0.0
+  },
+  "controlled_future_perturbation_prefix_max_abs_difference": {
+    "postln4": 0.0,
+    "preln4": 0.0,
+    "preln6": 0.0,
+    "tied6": 0.0,
+    "tied6_anchor": 0.0,
+    "tied6_full": 0.0,
+    "untied6_full": 0.0
+  },
+  "trajectory_cases": {
+    "canonical": {
+      "rollout_exact": true,
+      "valid_path": true,
+      "terminated": true,
+      "goal_reached": true,
+      "solved": true,
+      "optimal_solved": true,
+      "moves": 2,
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    "alternative_shortest": {
+      "rollout_exact": false,
+      "valid_path": true,
+      "terminated": true,
+      "goal_reached": true,
+      "solved": true,
+      "optimal_solved": true,
+      "moves": 2,
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    "legal_longer": {
+      "rollout_exact": false,
+      "valid_path": true,
+      "terminated": true,
+      "goal_reached": true,
+      "solved": true,
+      "optimal_solved": false,
+      "moves": 4,
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    "no_eos": {
+      "rollout_exact": false,
+      "valid_path": true,
+      "terminated": false,
+      "goal_reached": true,
+      "solved": false,
+      "optimal_solved": false,
+      "moves": 2,
+      "trace": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    "illegal_then_eos": {
+      "rollout_exact": false,
+      "valid_path": false,
+      "terminated": false,
+      "goal_reached": false,
+      "solved": false,
+      "optimal_solved": false,
+      "moves": 0,
+      "trace": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "pad_then_eos": {
+      "rollout_exact": false,
+      "valid_path": false,
+      "terminated": false,
+      "goal_reached": false,
+      "solved": false,
+      "optimal_solved": false,
+      "moves": 0,
+      "trace": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "premature_eos": {
+      "rollout_exact": false,
+      "valid_path": true,
+      "terminated": true,
+      "goal_reached": false,
+      "solved": false,
+      "optimal_solved": false,
+      "moves": 0,
+      "trace": [
+        [
+          0,
+          0
+        ]
+      ]
+    }
+  },
+  "saved_completed_run_crosschecks": {
+    "teacher_rows": 1000,
+    "rollout_rows": 512,
+    "generated_EOS_count": 512,
+    "harness_terminated_count": 116,
+    "training_steps": 2820,
+    "epochs": 30,
+    "all_summary_aggregations_match_saved_rows": true,
+    "token_weighted_epoch_NLL_matches_steps": true
+  }
+}

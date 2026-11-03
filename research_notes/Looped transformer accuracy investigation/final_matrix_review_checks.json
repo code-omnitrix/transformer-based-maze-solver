@@ -1,0 +1,67 @@
+{
+  "status": "all_matrix_numeric_checks_passed",
+  "runs": 21,
+  "variants": 7,
+  "seeds_per_variant": 3,
+  "epochs_per_run": 30,
+  "updates_per_run": 2820,
+  "total_epoch_records": 630,
+  "total_update_records": 59220,
+  "teacher_rows_checked": 21000,
+  "rollout_rows_checked": 10752,
+  "source_hashes": [
+    "e855368e4a0ec9371330dd5e962d3ec30446c662e1f671769b6ae0c1ecb7cc0b"
+  ],
+  "analysis_script_sha256": "899985b5fbf7a65efdb08c33381ddca4dcae6b6512159e0c9513ce9398245b4b",
+  "analysis_generated_utc": "2026-11-02T03:11:38.147172+00:00",
+  "dataset_hashes": {
+    "train": "cafaf4d7b50f9035a29353d688d96af8e9832a71530fc1a5a2d3ea4e542fa351",
+    "val": "c2702be904b522eb47ba02c999c0a725bcd5c8bd0c98c446d975817e0cbc8b7e",
+    "test": "499991fdc37950fe43504550576018fea7325b9573653b654000798c16e861e8"
+  },
+  "test_target_tokens": 8505,
+  "test_action_tokens": 7505,
+  "derived_failures_across_all_models": {
+    "wall_collision": 5709,
+    "optimal_canonical": 4243,
+    "optimal_alternative": 547,
+    "EOS_at_wrong_goal": 127,
+    "valid_nonoptimal_solution": 98,
+    "out_of_bounds": 28
+  },
+  "paired_contrasts": [
+    {
+      "contrast": "tied6_full minus untied6_full",
+      "mean_token_effect_pp": -2.7199686458945718,
+      "seed_sd_pp": 4.490572644912035
+    },
+    {
+      "contrast": "preln4 minus postln4",
+      "mean_token_effect_pp": 15.445816186556927,
+      "seed_sd_pp": 1.4511862497804129
+    },
+    {
+      "contrast": "preln6 minus preln4",
+      "mean_token_effect_pp": -3.492063492063492,
+      "seed_sd_pp": 5.852131910641452
+    },
+    {
+      "contrast": "tied6 minus preln6",
+      "mean_token_effect_pp": -5.149911816578483,
+      "seed_sd_pp": 8.538446530583927
+    },
+    {
+      "contrast": "tied6_anchor minus tied6",
+      "mean_token_effect_pp": 1.297276112090927,
+      "seed_sd_pp": 3.328520639706785
+    },
+    {
+      "contrast": "tied6_full minus tied6_anchor",
+      "mean_token_effect_pp": -1.477562218302959,
+      "seed_sd_pp": 2.5551582112766873
+    }
+  ],
+  "bootstrap": "5000 whole-maze resamples with RNG20261105; common sampled maze IDs across all3 fixed fitted seed models; token-weighted ratio; no retraining or training-data-resampling uncertainty",
+  "nll_limit": "Teacher NLL probabilities not retained per example; aggregate NLL was not independently recalculated without model re-evaluation.",
+  "plot_review": "Viewed all5 PNGs; percentages and seed SD correct. Final bar/depth captions confirm3seeds,teacher n1000 and bar rollout n512; gradient plot shows means without SD."
+}

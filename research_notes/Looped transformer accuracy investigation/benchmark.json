@@ -1,0 +1,106 @@
+{
+  "environment": {
+    "python": "3.12.13 | packaged by conda-forge | (main, Mar  5 2026, 16:36:12) [MSC v.1944 64 bit (AMD64)]",
+    "executable": "C:\\Users\\omnap\\miniconda3\\envs\\llmdyn\\python.exe",
+    "platform": "Windows-11-10.0.26300-SP0",
+    "torch": "2.11.0+cu128",
+    "numpy": "2.4.6",
+    "cuda_available": true,
+    "cuda_version": "12.8",
+    "gpu": "NVIDIA GeForce RTX 5080 Laptop GPU",
+    "threads": 4,
+    "notebook_sha256": "fd187163c7ea47f268a1734f1e6ab3c6dc306906950bed1f0793b030743e4701",
+    "script_sha256": "a393774fa9cf98201b2a612e3d249e72aac0d21ecd8016899ef005504515481a",
+    "argv": [
+      "D:\\Projects\\Loopedtrans\\research_notes\\Looped transformer accuracy investigation\\experiment_suite.py",
+      "--mode",
+      "benchmark",
+      "--variants",
+      "original_baseline,original_looped,preln6,tied6_full"
+    ],
+    "utc": "2026-11-02T02:27:28.702178+00:00",
+    "determinism": "Fixed RNG seeds; deterministic algorithms not forced; CUDA kernels may vary."
+  },
+  "results": [
+    {
+      "name": "original_baseline",
+      "parameters": 1338119,
+      "step_seconds_median_last10": 0.024410600017290562,
+      "all_step_seconds": [
+        1.257688199984841,
+        0.03159530000993982,
+        0.025290099962148815,
+        0.02650889998767525,
+        0.020381500013172626,
+        0.019627200032118708,
+        0.02614119998179376,
+        0.02367750002304092,
+        0.02303129999199882,
+        0.025143700011540204,
+        0.02223740000044927,
+        0.025204100005794317
+      ],
+      "peak_cuda_memory": 553248768
+    },
+    {
+      "name": "original_looped",
+      "parameters": 352521,
+      "step_seconds_median_last10": 0.039897299982840195,
+      "all_step_seconds": [
+        0.06711789994733408,
+        0.033682300010696054,
+        0.034776799962855875,
+        0.03661329997703433,
+        0.032572500000242144,
+        0.039929899969138205,
+        0.039864699996542186,
+        0.04550780000863597,
+        0.031874599982984364,
+        0.04358909995062277,
+        0.04594330000691116,
+        0.04724200000055134
+      ],
+      "peak_cuda_memory": 810994688
+    },
+    {
+      "name": "preln6",
+      "parameters": 2008839,
+      "step_seconds_median_last10": 0.03721149999182671,
+      "all_step_seconds": [
+        0.03982710000127554,
+        0.035980199987534434,
+        0.027227100043091923,
+        0.026737999985925853,
+        0.03892210003687069,
+        0.02703200001269579,
+        0.038666400010697544,
+        0.03653169999597594,
+        0.04260329995304346,
+        0.02813719998812303,
+        0.03973959997529164,
+        0.037891299987677485
+      ],
+      "peak_cuda_memory": 825755136
+    },
+    {
+      "name": "tied6_full",
+      "parameters": 352521,
+      "step_seconds_median_last10": 0.035610549995908514,
+      "all_step_seconds": [
+        0.045985299977473915,
+        0.0470933000324294,
+        0.040464800025802106,
+        0.04088200000114739,
+        0.031308399979025126,
+        0.03363339998759329,
+        0.03548149997368455,
+        0.048997400037478656,
+        0.03058909997344017,
+        0.0360909000155516,
+        0.03332609997596592,
+        0.03573960001813248
+      ],
+      "peak_cuda_memory": 825755136
+    }
+  ]
+}

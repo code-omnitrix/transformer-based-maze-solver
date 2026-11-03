@@ -1,0 +1,31 @@
+{
+  "run_id": "ext50k_original_baseline_preln_seed43",
+  "parameters": 1338119,
+  "teacher_test": {
+    "tokens": 42352,
+    "correct": 41961,
+    "examples": 5000,
+    "exact": 4711,
+    "nll": 1091.1096947658807,
+    "actions": 37352,
+    "actions_correct": 36975,
+    "eos": 5000,
+    "eos_correct": 4986,
+    "token_accuracy": 0.9907678503966755,
+    "action_accuracy": 0.9899068322981367,
+    "exact_accuracy": 0.9422,
+    "mean_nll": 0.02576288474607765
+  },
+  "rollout_test": {
+    "rollout_exact": 0.941,
+    "valid_path": 0.969,
+    "terminated": 0.969,
+    "goal_reached": 0.966,
+    "solved": 0.966,
+    "optimal_solved": 0.956
+  },
+  "rollout_n": 1000,
+  "train_seconds": 274.0223751999438,
+  "val_seconds": 8.028464899980463,
+  "total_seconds": 282.2642954000039
+}

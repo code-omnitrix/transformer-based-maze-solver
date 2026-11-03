@@ -1,0 +1,31 @@
+{
+  "run_id": "dyn50k_original_baseline_seed42",
+  "parameters": 1338119,
+  "teacher_test": {
+    "tokens": 42352,
+    "correct": 38989,
+    "examples": 5000,
+    "exact": 3157,
+    "nll": 8369.865590572357,
+    "actions": 37352,
+    "actions_correct": 34003,
+    "eos": 5000,
+    "eos_correct": 4986,
+    "token_accuracy": 0.9205940687570835,
+    "action_accuracy": 0.9103394731205826,
+    "exact_accuracy": 0.6314,
+    "mean_nll": 0.19762621813780595
+  },
+  "rollout_test": {
+    "rollout_exact": 0.618,
+    "valid_path": 0.692,
+    "terminated": 0.692,
+    "goal_reached": 0.68,
+    "solved": 0.68,
+    "optimal_solved": 0.677
+  },
+  "rollout_n": 1000,
+  "train_seconds": 283.68670029984787,
+  "val_seconds": 8.101823000004515,
+  "total_seconds": 294.23614459997043
+}

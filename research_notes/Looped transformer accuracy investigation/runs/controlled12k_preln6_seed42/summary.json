@@ -1,0 +1,31 @@
+{
+  "run_id": "controlled12k_preln6_seed42",
+  "parameters": 2008839,
+  "teacher_test": {
+    "tokens": 8505,
+    "correct": 7963,
+    "examples": 1000,
+    "exact": 687,
+    "nll": 1451.8247833251953,
+    "actions": 7505,
+    "actions_correct": 6982,
+    "eos": 1000,
+    "eos_correct": 981,
+    "token_accuracy": 0.9362727807172252,
+    "action_accuracy": 0.9303131245836109,
+    "exact_accuracy": 0.687,
+    "mean_nll": 0.17070250244858262
+  },
+  "rollout_test": {
+    "rollout_exact": 0.673828125,
+    "valid_path": 0.76171875,
+    "terminated": 0.76171875,
+    "goal_reached": 0.734375,
+    "solved": 0.734375,
+    "optimal_solved": 0.716796875
+  },
+  "rollout_n": 512,
+  "train_seconds": 102.50470339995809,
+  "val_seconds": 2.0981545998947695,
+  "total_seconds": 106.35319440002786
+}

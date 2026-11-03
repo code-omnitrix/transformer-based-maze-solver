@@ -1,0 +1,58 @@
+{
+  "cuda_visible_devices": "-1",
+  "fullscale_script_sha256": "e670b6b617d8e87e5d1f1183fad59cbe87dbc9eb222fb1f904f51857ce201d60",
+  "suite_script_sha256": "e855368e4a0ec9371330dd5e962d3ec30446c662e1f671769b6ae0c1ecb7cc0b",
+  "data_checks": {
+    "train": {
+      "grid_uint8_array_sha256": "e96405517a4c74fa62df0a11856ae7ded028d760c783e37e51308241a2e4f03d",
+      "grid_hash_matches_independent": true,
+      "path_histogram_matches_independent": true,
+      "sample_count": 50000,
+      "target_tokens": 421569,
+      "sequence_columns_including_BOS": 28
+    },
+    "val": {
+      "grid_uint8_array_sha256": "ec3898d0282f17005d1fb8c079d5cef7637ea7a11ed07dba67942831c52bc6af",
+      "grid_hash_matches_independent": true,
+      "path_histogram_matches_independent": true,
+      "sample_count": 5000,
+      "target_tokens": 41903,
+      "sequence_columns_including_BOS": 26
+    }
+  },
+  "model_checks": {
+    "original_baseline": {
+      "initial_state_identical": true,
+      "eval_forward_max_abs_difference": 0.0,
+      "adapter_decode_max_abs_difference": 0.0,
+      "train_forward_synced_dropout_max_abs_difference": 0.0,
+      "parameters": 1338119
+    },
+    "original_looped": {
+      "initial_state_identical": true,
+      "eval_forward_max_abs_difference": 0.0,
+      "adapter_decode_max_abs_difference": 0.0,
+      "train_forward_synced_dropout_max_abs_difference": 0.0,
+      "parameters": 352521
+    }
+  },
+  "declarations": [
+    [
+      "original_baseline",
+      90
+    ],
+    [
+      "original_looped",
+      30
+    ],
+    [
+      "tied6_full",
+      30
+    ],
+    [
+      "untied6_full",
+      30
+    ]
+  ],
+  "status": "all_cpu_checks_passed"
+}

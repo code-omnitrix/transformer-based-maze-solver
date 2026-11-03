@@ -1,0 +1,36 @@
+{
+  "mode": "train",
+  "variant": "tied6_full",
+  "seed": 43,
+  "epochs": 30,
+  "batch_size": 128,
+  "train_size": 50000,
+  "val_size": 5000,
+  "test_size": 5000,
+  "small": false,
+  "optimizer": "AdamW",
+  "lr": 0.001,
+  "weight_decay": 0.0001,
+  "clip_grad_norm": 1.0,
+  "warmup_steps": 0,
+  "dtype": "float32",
+  "amp": false,
+  "dataset_files": {
+    "train": "D:\\Projects\\Loopedtrans\\research_notes\\Looped transformer accuracy investigation\\data\\original50k_seed42\\train.npz",
+    "val": "D:\\Projects\\Loopedtrans\\research_notes\\Looped transformer accuracy investigation\\data\\original50k_seed42\\val.npz",
+    "test": "D:\\Projects\\Loopedtrans\\research_notes\\Looped transformer accuracy investigation\\data\\original50k_seed42\\test.npz"
+  },
+  "dataset_sha256": {
+    "train": "894351512727a9732d63d223d44a8327b29987d8557da0fd33eea259faf1ff81",
+    "val": "e651180802734fec5e2894528cddb2eb29b0fe61bec52a53605dca8cae70746e",
+    "test": "9be25cc6dbb00e2c2aff1f48b74119d7037e5e7c74fc86c56902c8d1dd809e45"
+  },
+  "scope": "Exploratory extension at full data scale.",
+  "architecture": {
+    "depth": 6,
+    "tied": true,
+    "injection": true,
+    "loop_encoding": true
+  },
+  "shuffle": "Dedicated torch.Generator seed1043."
+}

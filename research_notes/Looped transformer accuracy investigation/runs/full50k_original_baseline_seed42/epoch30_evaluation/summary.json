@@ -1,0 +1,31 @@
+{
+  "run_id": "full50k_original_baseline_seed42_epoch30",
+  "parameters": 1338119,
+  "teacher_test": {
+    "tokens": 42352,
+    "correct": 38094,
+    "examples": 5000,
+    "exact": 2783,
+    "nll": 10339.399230957031,
+    "actions": 37352,
+    "actions_correct": 33126,
+    "eos": 5000,
+    "eos_correct": 4968,
+    "token_accuracy": 0.8994616547034379,
+    "action_accuracy": 0.8868601413578925,
+    "exact_accuracy": 0.5566,
+    "mean_nll": 0.24413012917824498
+  },
+  "rollout_test": {
+    "rollout_exact": 0.545,
+    "valid_path": 0.636,
+    "terminated": 0.636,
+    "goal_reached": 0.623,
+    "solved": 0.623,
+    "optimal_solved": 0.62
+  },
+  "rollout_n": 1000,
+  "train_seconds": 298.6245129003655,
+  "val_seconds": 8.145343099778984,
+  "total_seconds": 308.35316260001855
+}

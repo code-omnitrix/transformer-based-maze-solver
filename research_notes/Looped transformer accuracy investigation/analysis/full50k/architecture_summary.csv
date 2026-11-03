@@ -1,0 +1,5 @@
+variant,seeds,n_seeds,parameters,test_token_accuracy_mean,test_token_accuracy_sd,test_action_accuracy_mean,test_action_accuracy_sd,test_first_action_accuracy_mean,test_first_action_accuracy_sd,test_teacher_exact_mean,test_teacher_exact_sd,test_rollout_exact_mean,test_rollout_exact_sd,test_solved_mean,test_solved_sd,test_optimal_solved_mean,test_optimal_solved_sd,train_seconds_mean,train_seconds_sd
+original_baseline,42,1,1338119,0.9663298073290517,,0.9636699507389163,,0.9446,,0.814,,0.811,,0.869,,0.846,,901.7224106003996,
+original_looped,42,1,352521,0.995065168114847,,0.9946187620475476,,0.9844,,0.9614,,0.968,,0.987,,0.971,,465.4191742001567,
+tied6_full,42,1,352521,0.9903900642236494,,0.9891839794388521,,0.9816,,0.9352,,0.922,,0.963,,0.94,,446.92867649986874,
+untied6_full,42,1,2008841,0.9949943332074046,,0.9946455343756693,,0.9842,,0.9612,,0.961,,0.982,,0.966,,437.11522909998894,

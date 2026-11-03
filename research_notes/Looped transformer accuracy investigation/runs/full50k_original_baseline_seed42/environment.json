@@ -1,0 +1,21 @@
+{
+  "python": "3.12.13 | packaged by conda-forge | (main, Mar  5 2026, 16:36:12) [MSC v.1944 64 bit (AMD64)]",
+  "executable": "C:\\Users\\omnap\\miniconda3\\envs\\llmdyn\\python.exe",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "torch": "2.11.0+cu128",
+  "numpy": "2.4.6",
+  "cuda_available": true,
+  "cuda_version": "12.8",
+  "gpu": "NVIDIA GeForce RTX 5080 Laptop GPU",
+  "threads": 4,
+  "notebook_sha256": "fd187163c7ea47f268a1734f1e6ab3c6dc306906950bed1f0793b030743e4701",
+  "script_sha256": "e855368e4a0ec9371330dd5e962d3ec30446c662e1f671769b6ae0c1ecb7cc0b",
+  "argv": [
+    "D:\\Projects\\Loopedtrans\\research_notes\\Looped transformer accuracy investigation\\fullscale_experiments.py",
+    "--rollout-n",
+    "1000"
+  ],
+  "utc": "2026-11-02T03:04:18.254082+00:00",
+  "determinism": "Fixed RNG seeds; deterministic algorithms not forced; CUDA kernels may vary.",
+  "fullscale_script_sha256": "e670b6b617d8e87e5d1f1183fad59cbe87dbc9eb222fb1f904f51857ce201d60"
+}

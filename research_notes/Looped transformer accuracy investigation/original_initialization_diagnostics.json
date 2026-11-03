@@ -1,0 +1,73 @@
+{
+  "scope": "Fresh independently seed42-instantiated saved definitions; not historical fitted weights",
+  "encoder_first_block": {
+    "baseline": {
+      "self_attn.in_proj_weight": {
+        "shape": [
+          384,
+          128
+        ],
+        "mean": -0.0003785789886023849,
+        "std": 0.06252462416887283
+      },
+      "self_attn.out_proj.weight": {
+        "shape": [
+          128,
+          128
+        ],
+        "mean": 0.0011113581713289022,
+        "std": 0.08810756355524063
+      },
+      "linear1.weight": {
+        "shape": [
+          256,
+          128
+        ],
+        "mean": -0.0006019660504534841,
+        "std": 0.072337307035923
+      },
+      "linear2.weight": {
+        "shape": [
+          128,
+          256
+        ],
+        "mean": -0.0006808593170717359,
+        "std": 0.0721309557557106
+      }
+    },
+    "looped": {
+      "self_attn.in_proj_weight": {
+        "shape": [
+          384,
+          128
+        ],
+        "mean": 0.0004491136351134628,
+        "std": 0.06254113465547562
+      },
+      "self_attn.out_proj.weight": {
+        "shape": [
+          128,
+          128
+        ],
+        "mean": 0.0004528080753516406,
+        "std": 0.05088320001959801
+      },
+      "linear1.weight": {
+        "shape": [
+          256,
+          128
+        ],
+        "mean": -3.371292768861167e-05,
+        "std": 0.05101630091667175
+      },
+      "linear2.weight": {
+        "shape": [
+          128,
+          256
+        ],
+        "mean": 0.00015298034122679383,
+        "std": 0.03623032569885254
+      }
+    }
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "same_seed_postln4_preln4_max_state_difference": 0.0,
+  "different_keys": [],
+  "known_difference": "norm_first boolean affects forward placement only; trainable parameters and all initialized tensors identical"
+}

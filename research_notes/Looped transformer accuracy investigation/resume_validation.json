@@ -1,0 +1,8 @@
+{
+  "scope": "CPU two-epoch tiny dropout+shuffle continuation diagnostic",
+  "uninterrupted_next_epoch_loss": 1.2141268849372864,
+  "resumed_next_epoch_loss": 1.2141268849372864,
+  "maximum_state_difference": 0.0,
+  "exact_match": true,
+  "gpu_bitwise_resume_not_claimed": true
+}

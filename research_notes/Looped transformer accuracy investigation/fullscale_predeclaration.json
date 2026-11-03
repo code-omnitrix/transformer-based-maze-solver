@@ -1,0 +1,28 @@
+{
+  "declared_utc": "2026-11-02T03:04:14.168976+00:00",
+  "all_runs": [
+    [
+      "original_baseline",
+      90
+    ],
+    [
+      "original_looped",
+      30
+    ],
+    [
+      "tied6_full",
+      30
+    ],
+    [
+      "untied6_full",
+      30
+    ]
+  ],
+  "baseline_extra_checkpoint_epoch": 30,
+  "architecture_seed": 42,
+  "data": "Exact original generator train50k val5k thenfresh test5k",
+  "primary_sharing_contrast": "controlled tied6_full minus untied6_full at30epochs",
+  "not_historical_bitwise_replication": "Fresh each-model seed42; original notebook execution order/state is unknown. Same problem, generator, original model code/optimizer/settings for original_*; new data/cache/evaluation/logging added.",
+  "checkpoint_rule": "Fixed final epoch; baseline alsofixed30. No test-selected architecture or stopping.",
+  "script_sha256": "e670b6b617d8e87e5d1f1183fad59cbe87dbc9eb222fb1f904f51857ce201d60"
+}

@@ -1,0 +1,31 @@
+{
+  "run_id": "controlled12k_untied6_full_seed44",
+  "parameters": 2008841,
+  "teacher_test": {
+    "tokens": 8505,
+    "correct": 7210,
+    "examples": 1000,
+    "exact": 385,
+    "nll": 3013.891632080078,
+    "actions": 7505,
+    "actions_correct": 6216,
+    "eos": 1000,
+    "eos_correct": 994,
+    "token_accuracy": 0.8477366255144033,
+    "action_accuracy": 0.8282478347768154,
+    "exact_accuracy": 0.385,
+    "mean_nll": 0.35436703493005034
+  },
+  "rollout_test": {
+    "rollout_exact": 0.353515625,
+    "valid_path": 0.42578125,
+    "terminated": 0.42578125,
+    "goal_reached": 0.416015625,
+    "solved": 0.416015625,
+    "optimal_solved": 0.41015625
+  },
+  "rollout_n": 512,
+  "train_seconds": 114.18566770019243,
+  "val_seconds": 2.7195060001686215,
+  "total_seconds": 118.71818110003369
+}

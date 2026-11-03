@@ -1,0 +1,31 @@
+{
+  "run_id": "controlled12k_postln4_seed43",
+  "parameters": 1346311,
+  "teacher_test": {
+    "tokens": 8505,
+    "correct": 6584,
+    "examples": 1000,
+    "exact": 206,
+    "nll": 4242.332763671875,
+    "actions": 7505,
+    "actions_correct": 5595,
+    "eos": 1000,
+    "eos_correct": 989,
+    "token_accuracy": 0.7741328630217519,
+    "action_accuracy": 0.7455029980013325,
+    "exact_accuracy": 0.206,
+    "mean_nll": 0.49880455775095534
+  },
+  "rollout_test": {
+    "rollout_exact": 0.197265625,
+    "valid_path": 0.21875,
+    "terminated": 0.21875,
+    "goal_reached": 0.21484375,
+    "solved": 0.21484375,
+    "optimal_solved": 0.212890625
+  },
+  "rollout_n": 512,
+  "train_seconds": 71.51190470025176,
+  "val_seconds": 1.6422055000439286,
+  "total_seconds": 74.47955669998191
+}

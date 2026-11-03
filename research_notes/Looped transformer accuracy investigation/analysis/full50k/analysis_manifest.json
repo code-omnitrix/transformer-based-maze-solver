@@ -1,0 +1,18 @@
+{
+  "generated_utc": "2026-11-02T03:47:21.801949+00:00",
+  "prefix": "full50k",
+  "complete_runs": 4,
+  "source_runs": [
+    "D:\\Projects\\Loopedtrans\\research_notes\\Looped transformer accuracy investigation\\runs\\full50k_original_baseline_seed42",
+    "D:\\Projects\\Loopedtrans\\research_notes\\Looped transformer accuracy investigation\\runs\\full50k_original_looped_seed42",
+    "D:\\Projects\\Loopedtrans\\research_notes\\Looped transformer accuracy investigation\\runs\\full50k_tied6_full_seed42",
+    "D:\\Projects\\Loopedtrans\\research_notes\\Looped transformer accuracy investigation\\runs\\full50k_untied6_full_seed42"
+  ],
+  "analysis_script_sha256": "899985b5fbf7a65efdb08c33381ddca4dcae6b6512159e0c9513ce9398245b4b",
+  "notes": [
+    "All accuracies fractions0to1 in CSV; plotted percent.",
+    "Conditional paired maze bootstrap is not a confidence interval over retraining seeds.",
+    "Only fixed final checkpoint used; no best-checkpoint selection.",
+    "Raw path_length_histogram in data/manifest.json includes BOS+EOS; subtract2 for action length."
+  ]
+}

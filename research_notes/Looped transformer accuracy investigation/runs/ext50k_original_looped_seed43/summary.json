@@ -1,0 +1,31 @@
+{
+  "run_id": "ext50k_original_looped_seed43",
+  "parameters": 352521,
+  "teacher_test": {
+    "tokens": 42352,
+    "correct": 42125,
+    "examples": 5000,
+    "exact": 4798,
+    "nll": 667.0523077757098,
+    "actions": 37352,
+    "actions_correct": 37144,
+    "eos": 5000,
+    "eos_correct": 4981,
+    "token_accuracy": 0.9946401586701926,
+    "action_accuracy": 0.9944313557506961,
+    "exact_accuracy": 0.9596,
+    "mean_nll": 0.015750196160174486
+  },
+  "rollout_test": {
+    "rollout_exact": 0.96,
+    "valid_path": 0.984,
+    "terminated": 0.984,
+    "goal_reached": 0.98,
+    "solved": 0.98,
+    "optimal_solved": 0.975
+  },
+  "rollout_n": 1000,
+  "train_seconds": 427.8348676000023,
+  "val_seconds": 13.150879500142764,
+  "total_seconds": 441.08104540000204
+}

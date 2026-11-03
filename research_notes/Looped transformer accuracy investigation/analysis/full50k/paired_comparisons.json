@@ -1,0 +1,35 @@
+[
+  {
+    "before": "untied6_full",
+    "after": "tied6_full",
+    "primary_contrast": true,
+    "paired_seeds": [
+      42
+    ],
+    "seed_token_effects": [
+      -0.004604268983755194
+    ],
+    "paired_seed_difference_mean": -0.004604268983755194,
+    "paired_seed_difference_sd": null,
+    "teacher_token": {
+      "difference": -0.004604268983755194,
+      "conditional_maze_bootstrap_95pct": [
+        -0.005655864705933541,
+        -0.0035570880100020065
+      ],
+      "replicates": 5000,
+      "seed": 20261105,
+      "unit": "paired maze, mean of fixed fitted model metrics; no voting/logit ensemble, no train-dataset or retraining uncertainty"
+    },
+    "rollout_optimal": {
+      "difference": -0.026,
+      "conditional_maze_bootstrap_95pct": [
+        -0.041,
+        -0.012
+      ],
+      "replicates": 5000,
+      "seed": 20261105,
+      "unit": "paired maze, mean of fixed fitted model metrics; no voting/logit ensemble, no train-dataset or retraining uncertainty"
+    }
+  }
+]

@@ -1,0 +1,23 @@
+{
+  "created_utc": "2026-11-02T04:31:15.381641+00:00",
+  "script_sha256": "b27333e085a1334a59b1f7b377675f408585cdeade198aa77876b68115106396",
+  "runs": [
+    "ext50k_original_baseline_preln6_seed42",
+    "ext50k_original_baseline_preln_seed42",
+    "ext50k_original_baseline_preln_seed43",
+    "ext50k_original_baseline_warmup_seed42",
+    "ext50k_original_looped_seed43",
+    "ext50k_tied6_full_seed43",
+    "ext50k_untied6_full_seed43",
+    "full50k_original_baseline_seed42",
+    "full50k_original_looped_seed42",
+    "full50k_tied6_full_seed42",
+    "full50k_untied6_full_seed42"
+  ],
+  "caveats": [
+    "ext50k runs were specified after full50k test outcomes were seen (exploratory).",
+    "Seed 42 only for most variants; seed 43 for four.",
+    "Historical curves are saved notebook output, not re-measured.",
+    "Error rates on log axis; bars are fixed final checkpoints, no selection."
+  ]
+}

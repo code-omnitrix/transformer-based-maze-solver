@@ -1,0 +1,39 @@
+{
+  "declared_utc": "2026-11-02T03:47:11.160130+00:00",
+  "runs": [
+    [
+      "original_baseline_preln",
+      42
+    ],
+    [
+      "original_baseline_warmup",
+      42
+    ],
+    [
+      "original_baseline_preln6",
+      42
+    ],
+    [
+      "tied6_full",
+      43
+    ],
+    [
+      "untied6_full",
+      43
+    ],
+    [
+      "original_looped",
+      43
+    ],
+    [
+      "original_baseline_preln",
+      43
+    ]
+  ],
+  "status": "EXPLORATORY: specified after full50k test outcomes were visible (untied6_full matched original_looped).",
+  "epochs": 30,
+  "warmup_steps": 2000,
+  "checkpoint_rule": "Fixed final epoch; no test-selected stopping.",
+  "shuffle_seed": "1000+architecture seed (1042 matches full50k)",
+  "script_sha256": "4116329191037c2a73c873a4a9b516d1550e81f10300764efad18fce4ff96cbe"
+}

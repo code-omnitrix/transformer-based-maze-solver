@@ -1,0 +1,23 @@
+{
+  "recorded_utc": "2026-11-02T02:44:22.059710+00:00",
+  "scope": "Exploratory, specified after pilotseed42 observations, before own harder-set evaluation",
+  "sets": [
+    {
+      "name": "walls40",
+      "p": 0.4,
+      "min_path": 4,
+      "seed": 20261106,
+      "n": 512
+    },
+    {
+      "name": "longpaths12",
+      "p": 0.28,
+      "min_path": 12,
+      "seed": 20261107,
+      "n": 512
+    }
+  ],
+  "models": "controlled12k tied6_full anduntied6_full all3seeds; fourfull50kmodels if completed",
+  "no_training": "Fixedfinalcheckpoint only",
+  "interpretation": "Harder IIDsize8 distributions; longset may overlap traininglengthsupport"
+}

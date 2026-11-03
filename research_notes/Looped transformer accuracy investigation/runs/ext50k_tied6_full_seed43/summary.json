@@ -1,0 +1,31 @@
+{
+  "run_id": "ext50k_tied6_full_seed43",
+  "parameters": 352521,
+  "teacher_test": {
+    "tokens": 42352,
+    "correct": 42103,
+    "examples": 5000,
+    "exact": 4780,
+    "nll": 666.1152158007026,
+    "actions": 37352,
+    "actions_correct": 37115,
+    "eos": 5000,
+    "eos_correct": 4988,
+    "token_accuracy": 0.9941207026822818,
+    "action_accuracy": 0.9936549582351681,
+    "exact_accuracy": 0.956,
+    "mean_nll": 0.01572806988573627
+  },
+  "rollout_test": {
+    "rollout_exact": 0.957,
+    "valid_path": 0.985,
+    "terminated": 0.985,
+    "goal_reached": 0.976,
+    "solved": 0.976,
+    "optimal_solved": 0.969
+  },
+  "rollout_n": 1000,
+  "train_seconds": 417.7045396998874,
+  "val_seconds": 11.977488499949686,
+  "total_seconds": 429.8027974999859
+}
